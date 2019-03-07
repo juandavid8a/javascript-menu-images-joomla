@@ -1,7 +1,9 @@
 # javascript-menu-images-joomla
 Codigo javascript para manejo de menus en joomla con imagenes (Hover y Active)
 
-Es un código rápido para poder manejar menus en joomla sólo con imagenes, revisa si el parent tiene la clase "active", osea que ya se le dio clic a un menú, identifica la imagen y le asigna la url de la imagen que contiene la terminación "-hover" por defecto, luego al posicionar el mouse sobre cualquier otro item del menu, busca automaticamente las imagenes con terminacion "-hover" de cada uno y genera el efecto hover.
+Es un código rápido para poder manejar menus en joomla sólo con imagenes, esta dividido en dos partes:
+* Recorre los item que contienen la clase "menu-hover" y revisa si el parent tiene la clase "active", osea que ya se le dio clic a un menú, obtiene la url de la imagen y modifica la etiqueta IMG asignandole una nueva url con la imagen que contiene la terminación "-hover" por defecto
+* La segunda parte del codigo reacciona al posicionar el mouse sobre cualquier item del menu y busca automaticamente las imagenes con terminacion "-hover" de cada uno y genera el efecto hover.
 
 ### Requiere dos imagenes:
 * nombreDelaImagen.png
