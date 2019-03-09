@@ -8,7 +8,7 @@ Es un código rápido para poder manejar menus en joomla sólo con imagenes, est
 * Recorre los item que contienen la clase "menu-hover" y revisa si el parent tiene la clase "active", osea que ya se le dio clic a un menú, obtiene la url de la imagen y modifica la etiqueta IMG asignandole una nueva url con la imagen que contiene la terminación "-hover" por defecto
 * La segunda parte del codigo reacciona al posicionar el mouse sobre cualquier item del menu y busca automaticamente las imagenes con terminacion "-hover" de cada uno y genera el efecto hover.
 
-En mi canal de youtube hay un video del paso a paso: [Click aqui para ir al canal](https://bit.ly/2wSo5iD)
+En mi canal de youtube hay un video del paso a paso: [Click aqui para ir al canal](https://youtu.be/2NfTcPnlSpc?sub_confirmation=1)
 
 ### Requiere dos imagenes:
 * nombreDelaImagen.png
